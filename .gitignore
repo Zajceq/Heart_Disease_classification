@@ -1,0 +1,33 @@
+# Ignore virtual environment directories (Conda, virtualenv)
+env/
+venv/
+*.venv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files and experiment outputs
+logs/
+*.log
+*.out
+*.err
+
+# Ignore Python package-related files
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
+*.sublime-workspace
